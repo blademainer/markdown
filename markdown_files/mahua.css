@@ -1,0 +1,54 @@
+body {
+	margin: 0px; padding: 0px;
+}
+.mahua-left {
+	width: 50%; height: 100%;
+}
+.mahua-right {
+	width: 50%; height: 100%;
+}
+.mahua-right {
+	width: 50%; margin-left: 50%;
+}
+.mahua-preview {
+	border: currentColor; border-image: none; width: 100%; height: 100%;
+}
+.mahua-toolbar {
+	background: rgba(0, 0, 0, 0.8); padding: 5px; top: 0px; right: 5px; color: rgb(255, 255, 255); position: absolute; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;
+}
+.mahua-donate-detail {
+	background: rgba(0, 0, 0, 0.8); padding: 5px; top: 0px; right: 5px; color: rgb(255, 255, 255); position: absolute; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;
+}
+.mahua-toolbar td {
+	padding: 2px 0px; text-align: right;
+}
+.mahua-toolbar td a {
+	color: rgb(255, 255, 255); font-size: 0.8em;
+}
+.mahua-toolbar td + td {
+	text-align: left;
+}
+.mahua-topbar {
+	margin: 0px; padding: 5px; top: 0px; height: 32px; right: 5px; position: absolute;
+}
+.mahua-topbar li {
+	width: 32px; height: 32px; display: inline-block;
+}
+.mahua-config {
+	background: url("./settings.png") no-repeat;
+}
+.mahua-donate {
+	background: url("./donate.png") no-repeat;
+}
+.mahua-session {
+	background: url("./session.png") no-repeat;
+}
+.mahua-donate-detail td {
+	text-align: right;
+}
+.mahua-spliter {
+	border: 2px dashed rgb(204, 204, 204); border-image: none; left: 50%; width: 3px; height: 100%; position: absolute; z-index: 10000; cursor: ew-resize;
+}
+.mahua-docanme {
+	background: rgba(0, 0, 0, 0.8); padding: 5px; left: 50%; color: rgb(255, 255, 255); position: absolute; z-index: 99999; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;
+}
